@@ -1,0 +1,3 @@
+[submodule "primeros-ejercicios"]
+	path = primeros-ejercicios
+	url = https://github.com/TefyPao/primeros-ejercicios.git

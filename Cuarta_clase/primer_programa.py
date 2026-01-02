@@ -13,8 +13,8 @@ try:
     print("4. División")
     print("5. Potenciación")
     print("6. Módulo")
-    x= int(input("Introduce el primer número:"))
-    y= int(input("Introduce el 2do número:"))
+    x= float(input("Introduce el primer número:"))
+    y= float(input("Introduce el 2do número:"))
     operation= input("¿Qué operación deseas hacer?: (Selecciona una opción del anterior menú de opciones)")
     
 
@@ -36,8 +36,10 @@ try:
 except ValueError:
     print("Hay un error. No se pueden operar números con letras")
 
-except: 
+except ZeroDivisionError: 
     print("División por cero no es posible")
+except Exception as e: 
+    print("¡Ha ocurrido un error!")
 
 
 

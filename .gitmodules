@@ -1,3 +1,6 @@
 [submodule "primeros-ejercicios"]
 	path = primeros-ejercicios
 	url = https://github.com/TefyPao/primeros-ejercicios.git
+[submodule "ejercicios-2"]
+	path = ejercicios-2
+	url = https://github.com/TefyPao/ejercicios-2.git
